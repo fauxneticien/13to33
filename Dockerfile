@@ -1,7 +1,7 @@
 # Create a Jekyll container from a Ruby Alpine image
 
 # At a minimum, use Ruby 2.5 or later
-FROM ruby:2.7-alpine3.15
+FROM ruby:3.2.7-alpine3.20
 
 WORKDIR /srv/jekyll
 

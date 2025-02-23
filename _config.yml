@@ -1,15 +1,14 @@
-title: My blog
-description: My very nice blog
+title: 13 to 33
+description: Tutorials for the ages
 author: "Nay San"
 
 theme: minima
 
-base_url: /gh-pages-minima-starter
-repository: jsanz/gh-pages-minima-starter
+base_url: /13to33
+repository: fauxneticien/13to33
 
 # Minima social links
-github_username: jsanz
-linkedin_username: jsanz
+github_username: fauxneticien
 rss: rss
 
 # Minima: show excerpts in the frontpage
@@ -17,12 +16,6 @@ show_excerpts: true
 
 minima:
   date_format: "%Y-%m-%d"
-
-# Minima: custom header links
-header_pages:
-  - _pages/frontpage.md
-  - _pages/about.md
-  - _pages/archive.md
 
 include:
     - _pages

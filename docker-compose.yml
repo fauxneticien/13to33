@@ -4,7 +4,8 @@ services:
   jekyll:
     build:
       context: .
-    command: jekyll serve --watch --force_polling --incremental --port 8080 -H 0.0.0.0 --livereload --livereload-port 35729 --baseurl /gh-pages-minima-starter
+    # command: jekyll serve --watch --force_polling --incremental --port 8080 -H 0.0.0.0 --livereload --livereload-port 35729 --baseurl /13to33
+    command: jekyll serve --watch --force_polling --port 8080 -H 0.0.0.0 --livereload --livereload-port 35729 --baseurl /13to33
     volumes:
       - .:/srv/jekyll
     ports:
