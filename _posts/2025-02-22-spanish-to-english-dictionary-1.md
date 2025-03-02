@@ -1,8 +1,7 @@
 ---
-title: "13.0 Hola Mundo: Your first Spanish-to-English dictionary"
+title: "13.0 Hola Mundo: Your first Spanish-to-English dictionary in HTML"
 date: 2025-02-22
 layout: post
-toc: true
 ---
 
 ## Goal
@@ -34,7 +33,7 @@ We do this by using HTML tags, which are typically used in pairs such as the sta
 
 ## Your first dictionary entry
 
-We're just about to create our first dictionary entry for the Spanish word *casa* (home).
+We're just about to create our first dictionary entry for the Spanish word *casa* (house).
 As common in many dictionaries, we're going to use consistent ordering and formatting to concisely display various information related to a given word.
 Say we want the entries to look like:
 
@@ -54,7 +53,7 @@ Or more specifically:
 
 To display the *casa* entry in the specification in the web browser, we can use the following HTML snippet: 
 
-```
+```html
 <b>casa</b>. (nf). <i>house</i>. ◆ Este es mi casa. <i>This is my house.</i>
 ```
 
@@ -67,7 +66,7 @@ Let's try to add the next entry, *grande*.
 We know that it should appear on a new line.
 However, when we simply add the entry on a new line in the editor, the displayed content does not contain a line break in between the two entries.
 
-```
+```html
 <b>casa</b>. (nf). <i>house</i>. ◆ Este es mi casa. <i>This is my house.</i>
 <b>grande</b>. (adjm, adjf). <i>large</i>. ◆ Mi casa es grande. <i>My house is large.</i>
 ```
@@ -78,7 +77,7 @@ However, when we simply add the entry on a new line in the editor, the displayed
 
 To create a line break, we can use the `<br>` tag, which does not need an accompanying end tag `</br>`.
 
-```
+```html
 <b>casa</b>. (nf). <i>house</i>. ◆ Este es mi casa. <i>This is my house.</i>
 <br>
 <b>grande</b>. (adjm, adjf). <i>large</i>. ◆ Mi casa es grande. <i>My house is large.</i>
@@ -92,7 +91,7 @@ To create a line break, we can use the `<br>` tag, which does not need an accomp
 
 Now we're ready to create the rest of our basic dictionary:
 
-```
+```html
 <b>casa</b>. (nf). <i>house</i>. ◆ Este es mi casa. <i>This is my house.</i>
 <br>
 <b>grande</b>. (adjm, adjf). <i>large</i>. ◆ Mi casa es grande. <i>My house is large.</i>
