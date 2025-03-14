@@ -1,5 +1,5 @@
 ---
-title: "13.0 Hola Mundo: Your first Spanish-to-English dictionary in HTML"
+title: "13.1 Hola Mundo: Your first Spanish-to-English dictionary in HTML"
 date: 2025-02-22
 layout: post
 ---

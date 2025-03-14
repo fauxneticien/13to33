@@ -1,5 +1,5 @@
 ---
-title: "13.1 Styling your Spanish-to-English dictionary with CSS"
+title: "13.2 Styling your Spanish-to-English dictionary with CSS"
 date: 2025-03-01
 layout: post
 ---
